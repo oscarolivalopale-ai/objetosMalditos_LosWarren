@@ -1,0 +1,55 @@
+body{
+    background-image: url('../assets/muñeca.png');
+    background-position: center;
+    background-size: cover;
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+#encabezado{
+    color:#800020; 
+}
+
+/* Cartas */
+.card{
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid #800020;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Texto de las cartas */
+.carta{
+    color:blue;
+}
+
+/* Los input */
+input[type="range"] {
+    accent-color: #800020; 
+}
+
+input[type="search"] {
+    color: blue; 
+    background-color:  #2b2b2b;
+    border: 1px solid #800020;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+/* Las istas */
+ol li{
+    padding: 5px;
+}
+
+/* Las imágenes */
+img{
+    border: 2px solid #800020;
+    border-radius: 6px;
+}
+
+/* El footer */
+footer{
+    background-color: #111;
+    border-top: 1px solid #800020;
+}
